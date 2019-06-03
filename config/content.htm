@@ -441,16 +441,15 @@ COPY TO CLIPBOARD	</pre>
 <p>各頁面標題目前不支援特殊符號, 例如: "/", "?" 等, 若已經發生程式無法解讀頁面的情況, 只能從編輯 config/content.htm 下手, 若系統位於遠端, 則後續必須要再設法提供一個額外的編輯 config/content.htm 檔案的網際連結功能.</p>
 <h4>Video 引用不支援內部引用</h4>
 <p>tinymce 中插入 video 的小視窗, 要移除引用的圖像與連結, 因為一般建議不要在內容中存入 .mp4 的影片資料, 而只接受引入影片 URL 連結.</p>
-<p></p><h1>實測你的幸福指數</h1>
+<p></p><h1>點擊測驗今日幸運指數</h1>
 <p></p>
-<p><span style="color: #ff6600;"><button onclick="myFunction()">點擊測驗你的智商</button></span></p>
+<p><span style="color: #ff6600;"><button onclick="myFunction()">點擊測驗今日幸運指數</button></span></p>
 <p id="demo"></p>
-<script>// <![CDATA[
+<script>
 function myFunction() {
   document.getElementById("demo").innerHTML = Math.floor(Math.random()*80+20);
 }
-// ]]></script>
-<h1>ROC flag</h1>
+</script><h1>ROC flag</h1>
 <!-- 導入 Brython 標準程式庫 -->
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>
